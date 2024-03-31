@@ -7,6 +7,7 @@ const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
 const ImageminWebpackPlugin = require("imagemin-webpack-plugin").default;
 const ImageminMozjpeg = require("imagemin-mozjpeg");
 const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -59,6 +60,7 @@ module.exports = {
         },
       },
     },
+    minimizer: [new CssMinimizerPlugin()],
   },
   plugins: [
     new CleanWebpackPlugin(),
