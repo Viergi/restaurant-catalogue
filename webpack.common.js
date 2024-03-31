@@ -102,6 +102,9 @@ module.exports = {
         },
       ],
     }),
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({
+      openAnalyzer: false,
+      analyzerMode: "static",
+    }),
   ],
 };

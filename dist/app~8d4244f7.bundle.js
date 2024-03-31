@@ -1,2 +1,438 @@
-(self.webpackChunkrestaurant_apps=self.webpackChunkrestaurant_apps||[]).push([[173],{406:()=>{function t(e){return t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},t(e)}function e(t,e){for(var r=0;r<e.length;r++){var o=e[r];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,n(o.key),o)}}function n(e){var n=function(e,n){if("object"!=t(e)||!e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var o=r.call(e,"string");if("object"!=t(o))return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(e)}(e);return"symbol"==t(n)?n:String(n)}function r(t){var e="function"==typeof Map?new Map:void 0;return r=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(o())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var u=new(t.bind.apply(t,r));return n&&i(u,n.prototype),u}(t,arguments,u(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),i(n,t)},r(t)}function o(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(o=function(){return!!t})()}function i(t,e){return i=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},i(t,e)}function u(t){return u=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},u(t)}var c=function(n){function r(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,r),e=this,i=arguments,n=u(n=r),function(e,n){if(n&&("object"===t(n)||"function"==typeof n))return n;if(void 0!==n)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(e)}(e,o()?Reflect.construct(n,i||[],u(e).constructor):n.apply(e,i));var e,n,i}var c,a;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&i(t,e)}(r,n),c=r,(a=[{key:"feedback",set:function(t){this._feedback=t,this.render()}},{key:"render",value:function(){this.innerHTML='\n            <div class="feedback" key="'.concat(this.feedback_user,'">\n                <span class="feedback_name">').concat(this._feedback.user,'</span>\n                <p class="feedback_text">\n                " ').concat(this._feedback.komentar,' "\n                </p>\n            </div>\n          ')}}])&&e(c.prototype,a),Object.defineProperty(c,"prototype",{writable:!1}),r}(r(HTMLElement));customElements.define("feedback-card",c)},192:(t,e,n)=>{"use strict";function r(t){return r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},r(t)}function o(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,i(r.key),r)}}function i(t){var e=function(t,e){if("object"!=r(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var o=n.call(t,"string");if("object"!=r(o))return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(t)}(t);return"symbol"==r(e)?e:String(e)}function u(t){var e="function"==typeof Map?new Map:void 0;return u=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(c())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var o=new(t.bind.apply(t,r));return n&&a(o,n.prototype),o}(t,arguments,f(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),a(n,t)},u(t)}function c(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(c=function(){return!!t})()}function a(t,e){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},a(t,e)}function f(t){return f=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},f(t)}n(406);var l=function(t){function e(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,e),t=this,o=arguments,n=f(n=e),function(t,e){if(e&&("object"===r(e)||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}(t,c()?Reflect.construct(n,o||[],f(t).constructor):n.apply(t,o));var t,n,o}var n,i;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&a(t,e)}(e,t),n=e,(i=[{key:"feedbacks",set:function(t){this._feedbacks=t,this.render()}},{key:"renderError",value:function(t){this.innerHTML="";var e=document.createElement("div");e.innerHTML="Whoops, Something went wrong. ",e.setAttribute("class","error"),document.querySelector(".feedback_section").append(e)}},{key:"render",value:function(){var t=this;this.innerHTML="",this._feedbacks.forEach((function(e,n){if(n+1<=(window.innerWidth<=768?4:window.innerWidth<=1024?9:12)){var r=document.createElement("feedback-card");r.feedback=e,t.appendChild(r)}}))}}])&&o(n.prototype,i),Object.defineProperty(n,"prototype",{writable:!1}),e}(u(HTMLElement));customElements.define("feedback-list",l)},654:()=>{function t(e){return t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},t(e)}function e(t,e){for(var r=0;r<e.length;r++){var o=e[r];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,n(o.key),o)}}function n(e){var n=function(e,n){if("object"!=t(e)||!e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var o=r.call(e,"string");if("object"!=t(o))return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(e)}(e);return"symbol"==t(n)?n:String(n)}function r(t){var e="function"==typeof Map?new Map:void 0;return r=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(o())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var u=new(t.bind.apply(t,r));return n&&i(u,n.prototype),u}(t,arguments,u(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),i(n,t)},r(t)}function o(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(o=function(){return!!t})()}function i(t,e){return i=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},i(t,e)}function u(t){return u=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},u(t)}var c=function(n){function r(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,r),e=this,i=arguments,n=u(n=r),function(e,n){if(n&&("object"===t(n)||"function"==typeof n))return n;if(void 0!==n)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(e)}(e,o()?Reflect.construct(n,i||[],u(e).constructor):n.apply(e,i));var e,n,i}var c,a;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&i(t,e)}(r,n),c=r,(a=[{key:"connectedCallback",value:function(){this.render()}},{key:"render",value:function(){this.innerHTML="\n    <footer>\n      <p>Cara mudah mengeksplor restoran</p>\n      <p>Copyright &copy; 2024 - TasteTopia</p>\n    </footer>\n  "}}])&&e(c.prototype,a),Object.defineProperty(c,"prototype",{writable:!1}),r}(r(HTMLElement));customElements.define("footer-element",c)},944:()=>{function t(e){return t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},t(e)}function e(t,e){for(var r=0;r<e.length;r++){var o=e[r];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,n(o.key),o)}}function n(e){var n=function(e,n){if("object"!=t(e)||!e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var o=r.call(e,"string");if("object"!=t(o))return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(e)}(e);return"symbol"==t(n)?n:String(n)}function r(t){var e="function"==typeof Map?new Map:void 0;return r=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(o())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var u=new(t.bind.apply(t,r));return n&&i(u,n.prototype),u}(t,arguments,u(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),i(n,t)},r(t)}function o(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(o=function(){return!!t})()}function i(t,e){return i=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},i(t,e)}function u(t){return u=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},u(t)}var c=function(n){function r(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,r),e=this,i=arguments,n=u(n=r),function(e,n){if(n&&("object"===t(n)||"function"==typeof n))return n;if(void 0!==n)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(e)}(e,o()?Reflect.construct(n,i||[],u(e).constructor):n.apply(e,i));var e,n,i}var c,a;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&i(t,e)}(r,n),c=r,(a=[{key:"connectedCallback",value:function(){var t=this.getAttribute("mode");"1"==t?this.firstModePageLoader():"2"==t&&this.secondModePageLoader()}},{key:"firstModePageLoader",value:function(){this.innerHTML='\n    <div class="loader-container">\n     <div class="loader-box"></div>\n     <div class="loader-box"></div>\n     <div class="loader-box"></div>\n     <div class="loader-box"></div>\n    </div>\n    '}},{key:"secondModePageLoader",value:function(){this.innerHTML='\n    <div class="loader-container">\n        <div class="loader-title"></div>\n        <div class="loader-image"></div>\n        <div class="loader-description"></div>\n    </div>'}}])&&e(c.prototype,a),Object.defineProperty(c,"prototype",{writable:!1}),r}(r(HTMLElement));customElements.define("loading-skeleton",c)},111:()=>{function t(e){return t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},t(e)}function e(t,e){for(var r=0;r<e.length;r++){var o=e[r];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,n(o.key),o)}}function n(e){var n=function(e,n){if("object"!=t(e)||!e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var o=r.call(e,"string");if("object"!=t(o))return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(e)}(e);return"symbol"==t(n)?n:String(n)}function r(t){var e="function"==typeof Map?new Map:void 0;return r=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(o())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var u=new(t.bind.apply(t,r));return n&&i(u,n.prototype),u}(t,arguments,u(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),i(n,t)},r(t)}function o(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(o=function(){return!!t})()}function i(t,e){return i=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},i(t,e)}function u(t){return u=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},u(t)}var c=function(n){function r(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,r),e=this,i=arguments,n=u(n=r),function(e,n){if(n&&("object"===t(n)||"function"==typeof n))return n;if(void 0!==n)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(e)}(e,o()?Reflect.construct(n,i||[],u(e).constructor):n.apply(e,i));var e,n,i}var c,a;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&i(t,e)}(r,n),c=r,(a=[{key:"connectedCallback",value:function(){this.render()}},{key:"render",value:function(){this.innerHTML='\n    <nav>\n      <h1>TasteTopia</h1>\n      <button id="hamburger">☰</button>\n      <ul class="drawer">\n        <li><a href="#/">Home</a></li>\n        <li><a href="#/favorite">Favorite</a></li>\n        <li>\n          <a\n            href="https://www.linkedin.com/in/viergi-159344273/"\n            target="_blank"\n            >About Us</a\n          >\n        </li>\n      </ul>\n    </nav>\n  '}}])&&e(c.prototype,a),Object.defineProperty(c,"prototype",{writable:!1}),r}(r(HTMLElement));customElements.define("navbar-element",c)},465:(t,e,n)=>{"use strict";var r=n(778);function o(t){return o="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},o(t)}function i(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,u(r.key),r)}}function u(t){var e=function(t,e){if("object"!=o(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,"string");if("object"!=o(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(t)}(t);return"symbol"==o(e)?e:String(e)}function c(t){var e="function"==typeof Map?new Map:void 0;return c=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(a())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var o=new(t.bind.apply(t,r));return n&&f(o,n.prototype),o}(t,arguments,l(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),f(n,t)},c(t)}function a(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(a=function(){return!!t})()}function f(t,e){return f=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},f(t,e)}function l(t){return l=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},l(t)}var s=function(t){function e(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,e),t=this,r=arguments,n=l(n=e),function(t,e){if(e&&("object"===o(e)||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}(t,a()?Reflect.construct(n,r||[],l(t).constructor):n.apply(t,r));var t,n,r}var n,u;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&f(t,e)}(e,t),n=e,(u=[{key:"restaurant",set:function(t){this._restaurant=t,this.render()}},{key:"render",value:function(){this.innerHTML='\n    <div class="restaurant_title">\n      <h2 class="restaurant_name">'.concat(this._restaurant.name,'</h2>\n      <p class="restaurant_categories">').concat(this._restaurant.categories.map((function(t){return" ".concat(t.name)})),'</p>\n    </div>\n    <img\n      src="').concat(r.A.BASE_IMAGE_URL,"/").concat(this._restaurant.pictureId,'"\n      alt="Picture of restaurant"\n    />\n    <div class="restaurant_container">\n      <div class="restaurant_detail">\n        <h3>Detail</h3>\n        <div class="restaurant_location">\n          <h4>Location</h4>\n          <span>').concat(this._restaurant.city," , ").concat(this._restaurant.address,'</span>\n        </div>\n        <span class="restaurant_rating">Rating : ').concat(this._restaurant.rating,' ⭐</span>\n        <div class="restaurant_description">\n          <h4>Description</h4>\n          <p>\n            ').concat(this._restaurant.description,'\n          </p>\n        </div>\n        <div class="restaurant_menu">\n          <h4>Menu</h4>\n          <div class="foods">\n            <span>Foods</span>\n            <ul id="food">\n            </ul>\n          </div>\n          <div class="drinks">\n            <span>Drinks</span>\n            <ul id="drink">\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class="restaurant_reviews">\n        <h3>Reviews</h3>\n        <div class="review_container" tabindex="0">\n        </div>\n      </div>\n    </div>\n  '),this.afterRender()}},{key:"afterRender",value:function(){this._restaurant.menus.foods.forEach((function(t){var e="<li>".concat(t.name,"</li>");document.getElementById("food").insertAdjacentHTML("beforeend",e)})),this._restaurant.menus.drinks.forEach((function(t){var e="<li>".concat(t.name,"</li>");document.getElementById("drink").insertAdjacentHTML("beforeend",e)})),this._restaurant.customerReviews.forEach((function(t){var e='\n          <div class="review">\n            <h5 class="review_name">'.concat(t.name,'</h5>\n            <p class="review_comment">').concat(t.review,'</p>\n            <span class="review_date">').concat(t.date,"</span>\n          </div>\n      ");document.querySelector(".review_container").insertAdjacentHTML("beforeend",e)}))}},{key:"renderError",value:function(){this.innerHTML="";var t=document.createElement("div");t.innerHTML="Whoops, Something went wrong. &#128531; ",t.setAttribute("class","error");var e=document.querySelector("#content");e.insertBefore(t,e.children[0])}}])&&i(n.prototype,u),Object.defineProperty(n,"prototype",{writable:!1}),e}(c(HTMLElement));customElements.define("restaurant-detail",s)},367:(t,e,n)=>{"use strict";var r=n(778);function o(t){return o="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},o(t)}function i(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,u(r.key),r)}}function u(t){var e=function(t,e){if("object"!=o(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,"string");if("object"!=o(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(t)}(t);return"symbol"==o(e)?e:String(e)}function c(t){var e="function"==typeof Map?new Map:void 0;return c=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(a())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var o=new(t.bind.apply(t,r));return n&&f(o,n.prototype),o}(t,arguments,l(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),f(n,t)},c(t)}function a(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(a=function(){return!!t})()}function f(t,e){return f=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},f(t,e)}function l(t){return l=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},l(t)}var s=function(t){function e(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,e),t=this,r=arguments,n=l(n=e),function(t,e){if(e&&("object"===o(e)||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}(t,a()?Reflect.construct(n,r||[],l(t).constructor):n.apply(t,r));var t,n,r}var n,u;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&f(t,e)}(e,t),n=e,(u=[{key:"restaurant",set:function(t){this._restaurant=t,this.render()}},{key:"render",value:function(){this.innerHTML='\n        <a class="restaurant_card" tabindex="0" href="#/detail/'.concat(this._restaurant.id,'" key="').concat(this._restaurant.id,'">\n          <h3 class="restaurant_card_location">').concat(this._restaurant.city,"</h3>\n          <img\n            src=").concat(r.A.BASE_IMAGE_URL+this._restaurant.pictureId,'\n            alt="Picture of restaurant"\n            class="lazyload"\n          />\n          <span>\n            <p class="restaurant_card_rating">Rating : ').concat(this._restaurant.rating,'</p>\n            <p class="restaurant_card_name">').concat(this._restaurant.name,'</p>\n            <p class="restaurant_card_description">\n            ').concat(this._restaurant.description,"\n            </p>\n          </span>\n        </a>\n        ")}}])&&i(n.prototype,u),Object.defineProperty(n,"prototype",{writable:!1}),e}(c(HTMLElement));function p(t){return p="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},p(t)}function y(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,b(r.key),r)}}function b(t){var e=function(t,e){if("object"!=p(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,"string");if("object"!=p(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return String(t)}(t);return"symbol"==p(e)?e:String(e)}function d(t){var e="function"==typeof Map?new Map:void 0;return d=function(t){if(null===t||!function(t){try{return-1!==Function.toString.call(t).indexOf("[native code]")}catch(e){return"function"==typeof t}}(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,n)}function n(){return function(t,e,n){if(v())return Reflect.construct.apply(null,arguments);var r=[null];r.push.apply(r,e);var o=new(t.bind.apply(t,r));return n&&h(o,n.prototype),o}(t,arguments,m(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),h(n,t)},d(t)}function v(){try{var t=!Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){})))}catch(t){}return(v=function(){return!!t})()}function h(t,e){return h=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},h(t,e)}function m(t){return m=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},m(t)}customElements.define("restaurant-card",s);var w=function(t){function e(){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,e),t=this,r=arguments,n=m(n=e),function(t,e){if(e&&("object"===p(e)||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}(t,v()?Reflect.construct(n,r||[],m(t).constructor):n.apply(t,r));var t,n,r}var n,r;return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&h(t,e)}(e,t),n=e,(r=[{key:"restaurants",set:function(t){this._restaurants=t,this.render()}},{key:"renderError",value:function(t){this.innerHTML="";var e=document.createElement("div");e.innerHTML="Whoops, Something went wrong. ",e.setAttribute("class","error"),document.querySelector(".restaurant_section").append(e)}},{key:"renderFavorite",value:function(t){this.innerHTML="";var e=document.createElement("div");e.innerHTML="No restaurants have been added to your favorites list yet",e.setAttribute("class","error"),document.querySelector(".restaurant_section").append(e)}},{key:"render",value:function(){var t=this;this.innerHTML="",this._restaurants.forEach((function(e){var n=document.createElement("restaurant-card");n.restaurant=e,t.appendChild(n)}))}}])&&y(n.prototype,r),Object.defineProperty(n,"prototype",{writable:!1}),e}(d(HTMLElement));customElements.define("restaurant-list",w)}}]);
+(self["webpackChunkrestaurant_apps"] = self["webpackChunkrestaurant_apps"] || []).push([[173],{
+
+/***/ 406:
+/***/ (() => {
+
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+function _construct(t, e, r) { if (_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && _setPrototypeOf(p, r.prototype), p; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var FeedbackCard = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(FeedbackCard, _HTMLElement);
+  function FeedbackCard() {
+    _classCallCheck(this, FeedbackCard);
+    return _callSuper(this, FeedbackCard, arguments);
+  }
+  _createClass(FeedbackCard, [{
+    key: "feedback",
+    set: function set(feedback) {
+      this._feedback = feedback;
+      this.render();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      this.innerHTML = "\n            <div class=\"feedback\" key=\"".concat(this.feedback_user, "\">\n                <span class=\"feedback_name\">").concat(this._feedback.user, "</span>\n                <p class=\"feedback_text\">\n                \" ").concat(this._feedback.komentar, " \"\n                </p>\n            </div>\n          ");
+    }
+  }]);
+  return FeedbackCard;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+customElements.define("feedback-card", FeedbackCard);
+
+/***/ }),
+
+/***/ 192:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony import */ var _feedback_card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(406);
+/* harmony import */ var _feedback_card__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_feedback_card__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+function _construct(t, e, r) { if (_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && _setPrototypeOf(p, r.prototype), p; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+var feedbackList = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(feedbackList, _HTMLElement);
+  function feedbackList() {
+    _classCallCheck(this, feedbackList);
+    return _callSuper(this, feedbackList, arguments);
+  }
+  _createClass(feedbackList, [{
+    key: "feedbacks",
+    set: function set(feedbacks) {
+      this._feedbacks = feedbacks;
+      this.render();
+    }
+  }, {
+    key: "renderError",
+    value: function renderError(message) {
+      this.innerHTML = "";
+      var errorElement = document.createElement("div");
+      errorElement.innerHTML = "Whoops, Something went wrong. ";
+      errorElement.setAttribute("class", "error");
+      var section = document.querySelector(".feedback_section");
+      section.append(errorElement);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this = this;
+      this.innerHTML = "";
+      this._feedbacks.forEach(function (feedback, index) {
+        var set = window.innerWidth <= 768 ? 4 : window.innerWidth <= 1024 ? 9 : 12;
+        if (index + 1 <= set) {
+          var feedbackCardElement = document.createElement("feedback-card");
+          feedbackCardElement.feedback = feedback;
+          _this.appendChild(feedbackCardElement);
+        }
+      });
+    }
+  }]);
+  return feedbackList;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+customElements.define("feedback-list", feedbackList);
+
+/***/ }),
+
+/***/ 654:
+/***/ (() => {
+
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+function _construct(t, e, r) { if (_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && _setPrototypeOf(p, r.prototype), p; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var FooterElement = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(FooterElement, _HTMLElement);
+  function FooterElement() {
+    _classCallCheck(this, FooterElement);
+    return _callSuper(this, FooterElement, arguments);
+  }
+  _createClass(FooterElement, [{
+    key: "connectedCallback",
+    value: function connectedCallback() {
+      this.render();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      this.innerHTML = "\n    <footer>\n      <p>Cara mudah mengeksplor restoran</p>\n      <p>Copyright &copy; 2024 - TasteTopia</p>\n    </footer>\n  ";
+    }
+  }]);
+  return FooterElement;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+customElements.define("footer-element", FooterElement);
+
+/***/ }),
+
+/***/ 944:
+/***/ (() => {
+
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+function _construct(t, e, r) { if (_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && _setPrototypeOf(p, r.prototype), p; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var LoadingSkeleton = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(LoadingSkeleton, _HTMLElement);
+  function LoadingSkeleton() {
+    _classCallCheck(this, LoadingSkeleton);
+    return _callSuper(this, LoadingSkeleton, arguments);
+  }
+  _createClass(LoadingSkeleton, [{
+    key: "connectedCallback",
+    value: function connectedCallback() {
+      var mode = this.getAttribute("mode");
+      if (mode == "1") {
+        this.firstModePageLoader();
+      } else if (mode == "2") {
+        this.secondModePageLoader();
+      }
+    }
+  }, {
+    key: "firstModePageLoader",
+    value: function firstModePageLoader() {
+      this.innerHTML = "\n    <div class=\"loader-container\">\n     <div class=\"loader-box\"></div>\n     <div class=\"loader-box\"></div>\n     <div class=\"loader-box\"></div>\n     <div class=\"loader-box\"></div>\n    </div>\n    ";
+    }
+  }, {
+    key: "secondModePageLoader",
+    value: function secondModePageLoader() {
+      this.innerHTML = "\n    <div class=\"loader-container\">\n        <div class=\"loader-title\"></div>\n        <div class=\"loader-image\"></div>\n        <div class=\"loader-description\"></div>\n    </div>";
+    }
+  }]);
+  return LoadingSkeleton;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+customElements.define("loading-skeleton", LoadingSkeleton);
+
+/***/ }),
+
+/***/ 111:
+/***/ (() => {
+
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+function _construct(t, e, r) { if (_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && _setPrototypeOf(p, r.prototype), p; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var NavbarElement = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(NavbarElement, _HTMLElement);
+  function NavbarElement() {
+    _classCallCheck(this, NavbarElement);
+    return _callSuper(this, NavbarElement, arguments);
+  }
+  _createClass(NavbarElement, [{
+    key: "connectedCallback",
+    value: function connectedCallback() {
+      this.render();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      this.innerHTML = "\n    <nav>\n      <h1>TasteTopia</h1>\n      <button id=\"hamburger\">\u2630</button>\n      <ul class=\"drawer\">\n        <li><a href=\"#/\">Home</a></li>\n        <li><a href=\"#/favorite\">Favorite</a></li>\n        <li>\n          <a\n            href=\"https://www.linkedin.com/in/viergi-159344273/\"\n            target=\"_blank\"\n            >About Us</a\n          >\n        </li>\n      </ul>\n    </nav>\n  ";
+    }
+  }]);
+  return NavbarElement;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+customElements.define("navbar-element", NavbarElement);
+
+/***/ }),
+
+/***/ 465:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony import */ var _globals_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(778);
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+function _construct(t, e, r) { if (_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && _setPrototypeOf(p, r.prototype), p; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+var RestaurantDetail = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(RestaurantDetail, _HTMLElement);
+  function RestaurantDetail() {
+    _classCallCheck(this, RestaurantDetail);
+    return _callSuper(this, RestaurantDetail, arguments);
+  }
+  _createClass(RestaurantDetail, [{
+    key: "restaurant",
+    set: function set(restaurant) {
+      this._restaurant = restaurant;
+      this.render();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      this.innerHTML = "\n    <div class=\"restaurant_title\">\n      <h2 class=\"restaurant_name\">".concat(this._restaurant.name, "</h2>\n      <p class=\"restaurant_categories\">").concat(this._restaurant.categories.map(function (category) {
+        return " ".concat(category.name);
+      }), "</p>\n    </div>\n    <img\n      src=\"").concat(_globals_config__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A.BASE_IMAGE_URL, "/").concat(this._restaurant.pictureId, "\"\n      alt=\"Picture of restaurant\"\n    />\n    <div class=\"restaurant_container\">\n      <div class=\"restaurant_detail\">\n        <h3>Detail</h3>\n        <div class=\"restaurant_location\">\n          <h4>Location</h4>\n          <span>").concat(this._restaurant.city, " , ").concat(this._restaurant.address, "</span>\n        </div>\n        <span class=\"restaurant_rating\">Rating : ").concat(this._restaurant.rating, " \u2B50</span>\n        <div class=\"restaurant_description\">\n          <h4>Description</h4>\n          <p>\n            ").concat(this._restaurant.description, "\n          </p>\n        </div>\n        <div class=\"restaurant_menu\">\n          <h4>Menu</h4>\n          <div class=\"foods\">\n            <span>Foods</span>\n            <ul id=\"food\">\n            </ul>\n          </div>\n          <div class=\"drinks\">\n            <span>Drinks</span>\n            <ul id=\"drink\">\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"restaurant_reviews\">\n        <h3>Reviews</h3>\n        <div class=\"review_container\" tabindex=\"0\">\n        </div>\n      </div>\n    </div>\n  ");
+      this.afterRender();
+    }
+  }, {
+    key: "afterRender",
+    value: function afterRender() {
+      this._restaurant.menus.foods.forEach(function (food) {
+        var markUp = "<li>".concat(food.name, "</li>");
+        document.getElementById("food").insertAdjacentHTML("beforeend", markUp);
+      });
+      this._restaurant.menus.drinks.forEach(function (drink) {
+        var markUp = "<li>".concat(drink.name, "</li>");
+        document.getElementById("drink").insertAdjacentHTML("beforeend", markUp);
+      });
+      this._restaurant.customerReviews.forEach(function (customer) {
+        var markUp = "\n          <div class=\"review\">\n            <h5 class=\"review_name\">".concat(customer.name, "</h5>\n            <p class=\"review_comment\">").concat(customer.review, "</p>\n            <span class=\"review_date\">").concat(customer.date, "</span>\n          </div>\n      ");
+        document.querySelector(".review_container").insertAdjacentHTML("beforeend", markUp);
+      });
+    }
+  }, {
+    key: "renderError",
+    value: function renderError() {
+      this.innerHTML = "";
+      var errorElement = document.createElement("div");
+      errorElement.innerHTML = "Whoops, Something went wrong. &#128531; ";
+      errorElement.setAttribute("class", "error");
+      var contentElement = document.querySelector("#content");
+      contentElement.insertBefore(errorElement, contentElement.children[0]);
+    }
+  }]);
+  return RestaurantDetail;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+customElements.define("restaurant-detail", RestaurantDetail);
+
+/***/ }),
+
+/***/ 367:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXTERNAL MODULE: ./src/scripts/globals/config.js
+var config = __webpack_require__(778);
+;// CONCATENATED MODULE: ./src/scripts/components/restaurant-card.js
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+function _construct(t, e, r) { if (_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && _setPrototypeOf(p, r.prototype), p; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+var RestaurantCard = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(RestaurantCard, _HTMLElement);
+  function RestaurantCard() {
+    _classCallCheck(this, RestaurantCard);
+    return _callSuper(this, RestaurantCard, arguments);
+  }
+  _createClass(RestaurantCard, [{
+    key: "restaurant",
+    set: function set(restaurant) {
+      this._restaurant = restaurant;
+      this.render();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      this.innerHTML = "\n        <a class=\"restaurant_card\" tabindex=\"0\" href=\"#/detail/".concat(this._restaurant.id, "\" key=\"").concat(this._restaurant.id, "\">\n          <h3 class=\"restaurant_card_location\">").concat(this._restaurant.city, "</h3>\n          <img\n            src=").concat(config/* default */.A.BASE_IMAGE_URL + this._restaurant.pictureId, "\n            alt=\"Picture of restaurant\"\n            class=\"lazyload\"\n          />\n          <span>\n            <p class=\"restaurant_card_rating\">Rating : ").concat(this._restaurant.rating, "</p>\n            <p class=\"restaurant_card_name\">").concat(this._restaurant.name, "</p>\n            <p class=\"restaurant_card_description\">\n            ").concat(this._restaurant.description, "\n            </p>\n          </span>\n        </a>\n        ");
+    }
+  }]);
+  return RestaurantCard;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+customElements.define("restaurant-card", RestaurantCard);
+;// CONCATENATED MODULE: ./src/scripts/components/restaurant-list.js
+function restaurant_list_typeof(o) { "@babel/helpers - typeof"; return restaurant_list_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, restaurant_list_typeof(o); }
+function restaurant_list_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function restaurant_list_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, restaurant_list_toPropertyKey(descriptor.key), descriptor); } }
+function restaurant_list_createClass(Constructor, protoProps, staticProps) { if (protoProps) restaurant_list_defineProperties(Constructor.prototype, protoProps); if (staticProps) restaurant_list_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function restaurant_list_toPropertyKey(t) { var i = restaurant_list_toPrimitive(t, "string"); return "symbol" == restaurant_list_typeof(i) ? i : String(i); }
+function restaurant_list_toPrimitive(t, r) { if ("object" != restaurant_list_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != restaurant_list_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function restaurant_list_callSuper(t, o, e) { return o = restaurant_list_getPrototypeOf(o), restaurant_list_possibleConstructorReturn(t, restaurant_list_isNativeReflectConstruct() ? Reflect.construct(o, e || [], restaurant_list_getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function restaurant_list_possibleConstructorReturn(self, call) { if (call && (restaurant_list_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return restaurant_list_assertThisInitialized(self); }
+function restaurant_list_assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function restaurant_list_inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) restaurant_list_setPrototypeOf(subClass, superClass); }
+function restaurant_list_wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; restaurant_list_wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !restaurant_list_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return restaurant_list_construct(Class, arguments, restaurant_list_getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return restaurant_list_setPrototypeOf(Wrapper, Class); }; return restaurant_list_wrapNativeSuper(Class); }
+function restaurant_list_construct(t, e, r) { if (restaurant_list_isNativeReflectConstruct()) return Reflect.construct.apply(null, arguments); var o = [null]; o.push.apply(o, e); var p = new (t.bind.apply(t, o))(); return r && restaurant_list_setPrototypeOf(p, r.prototype), p; }
+function restaurant_list_isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (restaurant_list_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function restaurant_list_isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
+function restaurant_list_setPrototypeOf(o, p) { restaurant_list_setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return restaurant_list_setPrototypeOf(o, p); }
+function restaurant_list_getPrototypeOf(o) { restaurant_list_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return restaurant_list_getPrototypeOf(o); }
+
+var RestaurantList = /*#__PURE__*/function (_HTMLElement) {
+  restaurant_list_inherits(RestaurantList, _HTMLElement);
+  function RestaurantList() {
+    restaurant_list_classCallCheck(this, RestaurantList);
+    return restaurant_list_callSuper(this, RestaurantList, arguments);
+  }
+  restaurant_list_createClass(RestaurantList, [{
+    key: "restaurants",
+    set: function set(restaurants) {
+      this._restaurants = restaurants;
+      this.render();
+    }
+  }, {
+    key: "renderError",
+    value: function renderError(message) {
+      this.innerHTML = "";
+      var errorElement = document.createElement("div");
+      errorElement.innerHTML = "Whoops, Something went wrong. ";
+      errorElement.setAttribute("class", "error");
+      var section = document.querySelector(".restaurant_section");
+      section.append(errorElement);
+    }
+  }, {
+    key: "renderFavorite",
+    value: function renderFavorite(message) {
+      this.innerHTML = "";
+      var errorElement = document.createElement("div");
+      errorElement.innerHTML = "No restaurants have been added to your favorites list yet";
+      errorElement.setAttribute("class", "error");
+      var section = document.querySelector(".restaurant_section");
+      section.append(errorElement);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this = this;
+      this.innerHTML = "";
+      this._restaurants.forEach(function (restaurant) {
+        var restaurantCardElement = document.createElement("restaurant-card");
+        restaurantCardElement.restaurant = restaurant;
+        _this.appendChild(restaurantCardElement);
+      });
+    }
+  }]);
+  return RestaurantList;
+}( /*#__PURE__*/restaurant_list_wrapNativeSuper(HTMLElement));
+customElements.define("restaurant-list", RestaurantList);
+
+/***/ })
+
+}]);
 //# sourceMappingURL=app~8d4244f7.bundle.js.map
